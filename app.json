@@ -1,23 +1,22 @@
 {
-  "name": "CHANUKA-MD",
-  "description": "Javascript WhatsApp bot made by ali",
-  "logo": "https://files.catbox.moe/umz8ez.jpg",
-  "keywords": ["CHANUKA-MD"],
+  "name": "HASHAN-MD",
+  "description": "Javascript WhatsApp bot made by Hashiya coder sl",
+  "logo": "https://files.catbox.moe/sn20tl.jpg",
+  "keywords": ["HASHAN-MD"],
   "success_url": "/",
 
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "3RsWwYLK#rWt1OTc1PeKYJUIIUp-rDlfdU2KfLOL_c3rddTd3otU",
       "required": true,
-      "value": ""
+      "value": "3RsWwYLK#rWt1OTc1PeKYJUIIUp-rDlfdU2KfLOL_c3rddTd3otU"
     },  
-    
     
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "𝐂𝐇𝐀𝐍𝐔𝐊𝐀-𝐌𝐃"
+      "value": "HASHAN-MD"
     }, 
       
     "PREFIX": {
@@ -28,15 +27,16 @@
     
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
-      "required": true,
+      "required": false,
       "value": "public"
       
     },
-        
+    
+    
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
-      "required": false,
-      "value": "false"  
+      "required": true,
+      "value": "true"  
     },    
   
     "AUTO_VOICE": {
@@ -50,41 +50,18 @@
       "required": false,
       "value": "false"
     }, 
-    
-    "ADMIN_STATUS": {
-      "description": "make it true if want know who promote or demote a member .",
-      "required": false,
-      "value": "false"
-    },
 
-    "WELCOME": {
-      "description": "make it true if want welcome message in groups.",
-      "required": false,
-      "value": "true"
-    },
-    
-   "GOODBYE": {
-      "description": "make it true if want goodbye message in groups.",
-      "required": false,
-      "value": "false"
-    },
-    
     "AUTO_STICKER": {
       "description": "Make it true if you want automatic sticker.",
       "required": false,
       "value": "false"
     }, 
 
+
     "AUTO_STATUS_SEEN": {
       "description": "Make it true for automatic status seen.",
       "required": true,
       "value": "true"
-    }, 
-    
-     "MENTION_REPLY": {
-      "description": "make it true if want mention reply if someone menetion you.",
-      "required": false,
-      "value": "false"
     }, 
 
     "AUTO_STATUS_REACT": {
@@ -95,52 +72,85 @@
 
     "AUTO_STATUS_REPLY": {
       "description": "Make it true for auto reply msg on status seen.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     }, 
 
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS JUST NOW CHANUKA-MD 💦🥵*"
+      "value": "*SEEN YOUR STATUS BY HASHAN-MD*"
    
      }, 
+    
+    "OWNER_NAME": {
+      "description": "Type Bot Owner Name.",
+      "required": false,
+      "value": "Jᴀᴡᴀᴅ TᴇᴄʜX"
+}, 
+
+    "OWNER_NUMBER": {
+      "description": "94706042889",
+      "required": true,
+      "value": "94706042889"
+
+    }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "𝐂𝐇𝐀𝐍𝐔𝐊𝐀-𝐌𝐃"
+      "value": "HASHAN-MD"
 
       }, 
-    
-    "ALIVE_IMG": {
-      "description": "put here the bot Menu url if you don't have you can use this public url.",
-      "required": true,
-      "value": "https://files.catbox.moe/umz8ez.jpg" 
-      },
 
-    "DELETE_LINK": {
-      "description": "Make it true if you want bot auto delete group link.",
-      "required": false,
-      "value": "false"
-    }, 
-    
     "ANTI_LINK": {
-      "description": "Make it true if you want bot auto wearing group link.",
+      "description": "Make it true if you want bot auto remove group link.",
+      "required": true,
+      "value": "true"
+      
+    },
+
+     "ANTI_LINK_KICK": {
+      "description": "Make it true if you want bot auto remove group link.",
       "required": true,
       "value": "false"
-    }, 
+      
+    },
     
-    "ANTI_BAD_WORD": {
+    "ANTI_BAD": {
       "description": "Make it true if you want bot auto delete bad words.",
       "required": false,
       "value": "false"
-    }, 
+    },
+
+   "MENTION_REPLY": {
+      "description": "make it true if want mention reply if someone menetion you.",
+      "required": false,
+      "value": "false"
+    },
+    
+    "MENU_IMAGE_URL": {
+      "description": "add url for mention reply and menu if want.",
+      "required": false,
+      "value": "https://files.catbox.moe/sn20tl.jpg"
+    },
+    
+     "DESCRIPTION": {
+      "description": "add caption for menu and other",
+      "required": false,
+      "value": "*© POWERED BY HASHAN-MD*"
+    },
+
+      "DELETE_LINKS": {
+      "description": "remove links from group automatically without removing member",
+      "required": false,
+      "value": "false"
+    },
     
     "AUTO_RECORDING": {
       "description": "Make it true if you want auto recoding.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
 
     "AUTO_TYPING": {
@@ -154,7 +164,6 @@
       "required": false,
       "value": "false"
     },
-
     
     "CUSTOM_REACT": {
       "description": "Make it true if you want custom reactions.",
@@ -170,10 +179,22 @@
     }, 
     
     "ANTI_DEL_PATH": {
-      "description": "if you want true make it your bot number .antidelete on",
+      "description": "change it to -same- if you want to resend deleted message in same chat",
       "required": false,
       "value": "log"
     }, 
+
+    "ADMIN_EVENTS": {
+      "description": "make it true if want know who promote or demote a member .",
+      "required": false,
+      "value": "false"
+    },
+
+    "WELCOME": {
+      "description": "make it true if want goodbye and welcome message in groups.",
+      "required": false,
+      "value": "true"
+    },
 
     "READ_MESSAGE": {
       "description": "Make it true if you want bot read your all sms just now.",
@@ -190,4 +211,3 @@
      ],
   "stack": "heroku-24"
 }
-  
